@@ -11,7 +11,7 @@ const StudentForm = ({ onSubmit }) => {
       message.error("Veuillez remplir tous les champs !");
       return;
     }
-
+    
     onSubmit({ firstName, lastName, email });
 
     setFirstName("");
