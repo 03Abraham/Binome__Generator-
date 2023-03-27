@@ -1,5 +1,4 @@
-import './App.css';
-// import React, { useState } from "react";
+import React from "react";
 import { Input, List } from "antd";
 const PairList = ({ pairs, onChange }) => {
   const handleTaskChange = (index, task) => {
