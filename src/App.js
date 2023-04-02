@@ -16,7 +16,6 @@ const StudentList = ({ students }) => (
     )}
   />
 );
-
 const App = () => {
   const [students, setStudents] = useState([]);
   const [pairs, setPairs] = useState([]);
